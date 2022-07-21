@@ -32,7 +32,3 @@ def backup():
         os.replace("bku/" + i, i)
     os.rmdir("bku")
     os.rmdir("remote")
-
-
-
-backup()
